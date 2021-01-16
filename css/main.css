@@ -2172,8 +2172,9 @@ textarea {
 }
 
 .list-content {
-  display: flex;
   padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -2190,10 +2191,10 @@ textarea {
   }
 }
 
-.list-item :not(:last-child) {
-  margin-right: 30px;
-  margin-bottom: 10px;
-  margin-right: 30px;
+.list-item {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -2213,10 +2214,9 @@ textarea {
 }
 
 .text {
-  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -2252,8 +2252,9 @@ textarea {
   }
 }
 
-.text-item :not(:last-child) {
-  margin-right: 30px;
+.text-item {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -2289,9 +2290,8 @@ textarea {
 
 .vector-logo-item {
   background-color: var(--background);
-  margin-right: 30px;
-  margin-bottom: 30px;
-  width: 270px;
+  margin-top: 30px;
+  width: 450px;
   height: 120px;
 }
 
@@ -2381,6 +2381,12 @@ textarea {
 @media screen and (min-width: 768px) {
   .our {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-off {
+    display: none;
   }
 }
 
@@ -2549,11 +2555,11 @@ textarea {
 }
 
 .team {
-  display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
-  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 450px;
   padding-left: 0px;
 }
 
@@ -2691,12 +2697,12 @@ textarea {
 }
 
 .clients {
-  margin-top: 94px;
+  margin-top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black);
@@ -2735,6 +2741,7 @@ textarea {
 
 .test {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-bottom: 94px;
@@ -2759,7 +2766,7 @@ textarea {
 }
 
 .clients-item {
-  width: 170px;
+  width: 210px;
   height: 90px;
   text-align: center;
   background-color: var(--button);
@@ -2793,10 +2800,6 @@ textarea {
     border-radius: 4px;
     list-style: none;
   }
-}
-
-.clients-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 @media screen and (min-width: 768px) {
