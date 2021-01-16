@@ -43,9 +43,10 @@
 }
 
 .test {
+  // width: call(50%- 30px);
   display: flex;
   flex-wrap: wrap;
-
+  background-color: tomato;
   justify-content: center;
   align-items: center;
   margin-bottom: 94px;

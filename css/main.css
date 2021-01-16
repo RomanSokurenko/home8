@@ -586,7 +586,7 @@ a {
 .button-subscription {
   width: 200px;
   height: 50px;
-  margin-top: 96px;
+  margin-top: 20px;
   margin-left: 12px;
   padding-left: 29px;
   background-color: var(--accent-cl);
@@ -594,7 +594,6 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -1791,6 +1790,8 @@ textarea {
 }
 
 .block-test {
+  width: 480px;
+  height: 603px;
   text-align: center;
 }
 
@@ -2749,6 +2750,7 @@ textarea {
 .test {
   display: flex;
   flex-wrap: wrap;
+  background-color: tomato;
   justify-content: center;
   align-items: center;
   margin-bottom: 94px;
