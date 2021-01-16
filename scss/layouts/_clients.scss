@@ -45,6 +45,7 @@
 .test {
   display: flex;
   flex-wrap: wrap;
+
   justify-content: center;
   align-items: center;
   margin-bottom: 94px;
@@ -70,6 +71,7 @@
 }
 
 .clients-item {
+  margin-bottom: 30px;
   width: 210px;
   height: 90px;
   text-align: center;
@@ -108,7 +110,7 @@
   }
 }
 
-.clients-item:not(:last-child) {
+.clients-item {
   // margin-right: 30px;
 }
 

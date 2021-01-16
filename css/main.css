@@ -681,22 +681,6 @@ a {
   }
 }
 
-.block-test {
-  display: flex;
-}
-
-@media screen and (min-width: 768px) {
-  .block-test {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .block-test {
-    display: flex;
-  }
-}
-
 .social-icons {
   margin-top: 16px;
   margin-bottom: 30px;
@@ -831,8 +815,10 @@ a {
 
 .address-social-icons {
   display: flex;
-  margin-left: 70px;
   padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -1572,6 +1558,8 @@ textarea {
 }
 
 .address-social {
+  width: 146px;
+  height: 16px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -1581,7 +1569,8 @@ textarea {
   text-transform: uppercase;
   color: var(--button);
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -1624,7 +1613,6 @@ textarea {
   text-transform: uppercase;
   color: var(--button);
   margin-top: 60px;
-  margin-left: 70px;
   margin-bottom: 0px;
 }
 
@@ -1748,6 +1736,7 @@ textarea {
 }
 
 .footer {
+  width: 480px;
   background-color: var(--footer);
 }
 
@@ -1801,6 +1790,22 @@ textarea {
   }
 }
 
+.block-test {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .block-test {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .block-test {
+    display: flex;
+  }
+}
+
 .address-map {
   margin-top: 20px;
   display: inline-block;
@@ -1825,7 +1830,6 @@ textarea {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  width: 231px;
   height: 21px;
   padding: 0px;
   margin-top: 20px;
@@ -1861,8 +1865,10 @@ textarea {
 }
 
 .connection {
+  height: 50px;
   padding: 0px;
   margin-top: 9px;
+  margin-bottom: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1880,7 +1886,6 @@ textarea {
 }
 
 .connection .tel {
-  margin-bottom: 60px;
   display: inline-block;
 }
 
@@ -1899,6 +1904,8 @@ textarea {
 }
 
 .tel {
+  margin-top: 8px;
+  margin-bottom: 0px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -2766,6 +2773,7 @@ textarea {
 }
 
 .clients-item {
+  margin-bottom: 30px;
   width: 210px;
   height: 90px;
   text-align: center;

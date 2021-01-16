@@ -1,4 +1,7 @@
 .address-social {
+  width: 146px;
+  height: 16px;
+  // align-items: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -8,7 +11,8 @@
   text-transform: uppercase;
   color: var(--button);
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // tablet
@@ -53,7 +57,7 @@
   text-transform: uppercase;
   color: var(--button);
   margin-top: 60px;
-  margin-left: 70px;
+  // margin-left: 70px;
   margin-bottom: 0px;
 }
 
@@ -185,6 +189,7 @@
 }
 
 .footer {
+  width: 480px;
   background-color: var(--footer);
 }
 
@@ -244,6 +249,22 @@
   }
 }
 
+.block-test {
+  text-align: center;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .block-test {
+    display: flex;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .block-test {
+    display: flex;
+  }
+}
+
 .address-map {
   margin-top: 20px;
   display: inline-block;
@@ -268,7 +289,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  width: 231px;
+  // width: 232px;
   height: 21px;
   padding: 0px;
   margin-top: 20px;
@@ -305,8 +326,10 @@
 }
 
 .connection {
+  height: 50px;
   padding: 0px;
   margin-top: 9px;
+  margin-bottom: 0px;
 }
 
 // tablet
@@ -326,7 +349,7 @@
 }
 
 .connection .tel {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
   // padding-bottom: 60px;
   display: inline-block;
 }
@@ -350,6 +373,8 @@
 }
 
 .tel {
+  margin-top: 8px;
+  margin-bottom: 0px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
