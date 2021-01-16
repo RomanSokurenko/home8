@@ -1,0 +1,181 @@
+.hero {
+  // justify-content: center;
+  //align-items: center;
+  // margin-left: auto;
+  // margin-right: auto;
+  width: 696px;
+  height: 120px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  display: inline-block;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .hero {
+    // justify-content: center;
+    //align-items: center;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 696px;
+    height: 120px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+// desctop
+@media screen and (min-width: 1600px) {
+  .hero {
+    // justify-content: center;
+    //align-items: center;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 696px;
+    height: 120px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+.container-hero {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .container-hero {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// desctop
+@media screen and (min-width: 1600px) {
+  .container-hero {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.section-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.5),
+      rgba(47, 48, 58, 0.5)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 1600px 600px;
+  color: var(--button);
+  text-align: center;
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .section-hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.5)
+      ),
+      url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+    color: var(--button);
+    text-align: center;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .section-hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.5)
+      ),
+      url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 600px;
+    color: var(--button);
+    text-align: center;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+// desctop
+@media screen and (min-width: 1600px) {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}

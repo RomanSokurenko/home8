@@ -1,0 +1,235 @@
+.menu {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .menu {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.menu-logo {
+  margin-left: 93px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .menu-logo {
+    margin-left: 93px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .menu-logo {
+    margin-left: 93px;
+  }
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .menu-item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .menu-item:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.menu-item {
+  margin-top: 29px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .menu-item {
+    margin-top: 29px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .menu-item {
+    margin-top: 29px;
+  }
+}
+
+.active-page {
+  padding-bottom: 0;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .active-page {
+    padding-bottom: 0;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .active-page {
+    padding-bottom: 0;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+}
+
+.active-page::after {
+  content: '';
+
+  display: block;
+  position: relative;
+  margin-top: 28px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-cl);
+  border-radius: 2px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .active-page::after {
+    content: '';
+
+    display: block;
+    position: relative;
+    margin-top: 28px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-cl);
+    border-radius: 2px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .active-page::after {
+    content: '';
+
+    display: block;
+    position: relative;
+    margin-top: 28px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-cl);
+    border-radius: 2px;
+  }
+}
+
+.active {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .active {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .active {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.mail-tel-svg {
+  transform: translate(-5px, 4px);
+  fill: var(--gray);
+  width: 20px;
+  height: 16px;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .mail-tel-svg {
+    transform: translate(-5px, 4px);
+    fill: var(--gray);
+    width: 20px;
+    height: 16px;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .mail-tel-svg {
+    transform: translate(-5px, 4px);
+    fill: var(--gray);
+    width: 20px;
+    height: 16px;
+  }
+}
+
+.mail {
+  text-align: center;
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .mail {
+    text-align: center;
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .mail {
+    text-align: center;
+  }
+}
+
+.menu-item:hover .mail-tel-svg,
+.menu-item:focus .mail-tel-svg {
+  fill: var(--accent-cl);
+}
+// tablet
+@media screen and (min-width: 768px) {
+  .menu-item:hover .mail-tel-svg,
+  .menu-item:focus .mail-tel-svg {
+    fill: var(--accent-cl);
+  }
+}
+// desctop
+@media screen and (min-width: 1600px) {
+  .menu-item:hover .mail-tel-svg,
+  .menu-item:focus .mail-tel-svg {
+    fill: var(--accent-cl);
+  }
+}
